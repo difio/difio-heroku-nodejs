@@ -34,9 +34,9 @@ Installing on your Heroku application
 
 - Execute the registration script to submit the information to Difio
 
-    heroku run /app/node_modules/difio-heroku-nodejs/difio-heroku.js
-    Running `/app/node_modules/difio-heroku-nodejs/difio-heroku.js` attached to terminal... up, run.1
-    Success, registered/updated application 8370e3be-6e54-462d-9ca9-224301c29a1d
+        heroku run /app/node_modules/difio-heroku-nodejs/difio-heroku.js
+        Running `/app/node_modules/difio-heroku-nodejs/difio-heroku.js` attached to terminal... up, run.1
+        Success, registered/updated application 8370e3be-6e54-462d-9ca9-224301c29a1d
 
 
 That's it, you can now check your application statistics at http://www.dif.io
@@ -49,6 +49,4 @@ Updating dependencies
 Whenever you change your application to include new dependencies or
 upgrade/downgrade package versions you should re-submit the information to Difio.
 
-::
-
-    heroku run /app/node_modules/difio-heroku-nodejs/difio-heroku.js
+        heroku run /app/node_modules/difio-heroku-nodejs/difio-heroku.js
